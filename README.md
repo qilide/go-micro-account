@@ -1,3 +1,7 @@
+### 项目配置
+```shell
+go mod tidy
+```
 ### 启动命令
 首先启动Docker，镜像启动可以使用docker-compose启动或者单独启动，二者选其一就可以
 #### docker-compose方式启动镜像
