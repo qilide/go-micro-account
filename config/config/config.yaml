@@ -1,0 +1,64 @@
+name: "Account"
+title: "账号功能"
+mode: "dev"
+port: 9580
+version: "v0.0.1"
+
+log:
+  level: "debug"
+  filename: "Account.log"
+  max_size: 200
+  max_age: 30
+  max_backips: 7
+
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: "xxx"
+  dbname: "micro"
+  max_open_conns: 200
+  max_idle_conns: "50"
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  password: "123456"
+  db: 4
+  pool_size: 100
+
+email:
+  user: "xxx@qq.com"
+  pass: "xxx"
+  host: "smtp.qq.com"
+  port: 465
+  rename: "Account"
+
+# 配置、注册中心
+consul:
+  host: "localhost"
+  port: 8500
+  prefix: "/micro/config"
+  consulRegistry: "127.0.0.1:8500"
+
+# 链路追踪
+jaeger:
+  serviceName: "go.micro.service.account"
+  addr: "localhost:6831"
+
+# 监控服务
+prometheus:
+  host: "0.0.0.0"
+  port: 9089
+
+# 限流
+ratelimit:
+  QPS: 1000
+
+# 微服务
+micro:
+  name: "go.micro.service.account"
+  version: "latest"
+  address: ":9580"
+
+

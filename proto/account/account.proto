@@ -1,0 +1,103 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+package go.micro.service.account;
+option go_package="/proto/account";
+
+service Account {
+  //登录
+  rpc Login(LoginRequest) returns (LoginResponse) {}
+  //注册
+  rpc Register(RegisterRequest) returns (RegisterResponse) {}
+  //查询用户信息
+  rpc GetUserInfo(UserIdRequest) returns (UserInfoResponse) {}
+  //修改信息
+  rpc UpdateUserInfo(UserInfoRequest) returns (Response) {}
+  //发送注册邮件
+  rpc SendRegisterMail(SendMailRequest) returns (SendMailResponse) {}
+  //发送重置密码邮件
+  rpc SendResetPwdMail(SendMailRequest) returns (SendMailResponse) {}
+  //重置密码
+  rpc ResetPwd(ResetPwdRequest) returns (Response) {}
+  //获取权限
+  rpc GetUserPermission(UserIdRequest) returns (GetPermissionResponse) {}
+  //修改权限
+  rpc UpdateUserPermission(UpdatePermissionRequest) returns (Response) {}
+  //退出账号
+  rpc Logout(UserIdRequest) returns (Response) {}
+  //删除账号
+  rpc DelUser(UserIdRequest) returns (Response) {}
+  //禁用账号
+  rpc DisableUser(UserIdRequest) returns (Response) {}
+  //启用账号
+  rpc EnableUser(UserIdRequest) returns (Response) {}
+}
+
+message UserInfoResponse{
+  int64 user_id = 1;
+  string username = 2;
+  string first_name = 3;
+  string password = 4;
+  int64 permission = 5;
+  google.protobuf.Timestamp create_date = 6;
+  google.protobuf.Timestamp update_date = 7;
+  int64 is_active = 8;
+  string email = 9;
+  string last_name = 10;
+}
+
+message UserInfoRequest{
+  UserInfoResponse user_info =1;
+}
+
+message UserIdRequest{
+  int64 user_id = 1;
+}
+
+message Response{
+  string message = 1;
+}
+
+
+message RegisterRequest{
+  UserInfoResponse register_request = 1;
+  string code = 2;
+}
+
+message LoginRequest{
+  string username = 1;
+  string password = 2;
+}
+
+message LoginResponse{
+  bool is_success = 1;
+  int64 user_id = 2;
+  string token = 3;
+}
+
+message RegisterResponse{
+  bool is_success = 1;
+  int64 user_id = 2;
+}
+
+message SendMailRequest{
+  string email = 1;
+}
+
+message SendMailResponse{
+  string code = 1;
+  string msg = 2;
+}
+
+message GetPermissionResponse{
+  int64 permission = 1;
+}
+
+message UpdatePermissionRequest{
+  int64 user_id = 1;
+  int64 permission = 2;
+}
+message ResetPwdRequest{
+  int64 user_id = 1;
+  string code = 2;
+  string password = 3;
+}

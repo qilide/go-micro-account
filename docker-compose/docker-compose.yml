@@ -1,0 +1,23 @@
+# 声明版本
+version: "3"
+services:
+  # 服务名称,并且这个服务名称能够在同一个网络进行访问
+  consul-imooc:
+    # 说明采用的镜像地址
+    image: consul
+    ports:
+      - "8500:8500"
+  # 链路追踪
+  jaeger-imooc:
+    image: jaegertracing/all-in-one
+    ports:
+      - "6831:6831/udp"
+      - "16686:16686"
+  # 监控
+  prometheus:
+    image: bitnami/prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+

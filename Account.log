@@ -1,0 +1,185 @@
+{"level":"debug","ts":"2023-01-05T19:58:41.735+0800","caller":"account/main.go:37","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-05T20:07:20.347+0800","caller":"account/main.go:37","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-05T20:46:08.077+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-05T20:46:09.035+0800","caller":"account/main.go:71","msg":"ERR Client sent AUTH, but no password is set"}
+{"level":"debug","ts":"2023-01-05T20:46:41.956+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-05T20:46:42.828+0800","caller":"account/main.go:71","msg":"ERR Client sent AUTH, but no password is set"}
+{"level":"debug","ts":"2023-01-05T20:47:06.372+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-05T20:47:07.250+0800","caller":"account/main.go:71","msg":"ERR Client sent AUTH, but no password is set"}
+{"level":"debug","ts":"2023-01-05T20:49:19.338+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-05T20:49:20.167+0800","caller":"account/main.go:71","msg":"ERR Client sent AUTH, but no password is set"}
+{"level":"debug","ts":"2023-01-05T20:53:06.855+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-05T20:53:07.796+0800","caller":"account/main.go:71","msg":"ERR Client sent AUTH, but no password is set"}
+{"level":"debug","ts":"2023-01-05T20:54:06.338+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-05T20:54:07.306+0800","caller":"account/main.go:72","msg":"ERR Client sent AUTH, but no password is set"}
+{"level":"debug","ts":"2023-01-05T20:54:44.218+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-05T20:57:36.918+0800","caller":"Client/account.go:31","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-05T20:57:42.752+0800","caller":"Client/account.go:64","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-05T21:04:50.044+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-05T21:04:54.849+0800","caller":"Client/account.go:31","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-05T21:05:00.691+0800","caller":"Client/account.go:64","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-05T21:05:15.689+0800","caller":"Client/account.go:31","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-05T21:05:21.524+0800","caller":"Client/account.go:64","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-05T21:09:35.164+0800","caller":"Client/account.go:31","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-05T21:09:41.108+0800","caller":"Client/account.go:64","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-05T21:12:56.453+0800","caller":"Client/account.go:31","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-05T21:13:02.337+0800","caller":"Client/account.go:64","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-05T21:15:31.477+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-05T21:15:44.461+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-05T21:15:50.288+0800","caller":"Client/account.go:63","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-06T10:05:21.582+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:05:49.952+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:05:55.760+0800","caller":"Client/account.go:63","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-06T10:10:16.299+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:14:29.199+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:16:13.166+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:19:12.923+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:20:04.021+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:21:30.948+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:22:57.405+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:24:29.792+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:25:32.537+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:27:02.187+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:27:50.215+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:28:27.259+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:28:59.621+0800","caller":"account/main.go:39","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:29:25.675+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:29:27.879+0800","caller":"Client/account.go:81","msg":"{\"id\":\"go.micro.server\",\"code\":500,\"detail\":\"panic recovered: runtime error: invalid memory address or nil pointer dereference\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T10:32:41.077+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:32:42.107+0800","caller":"Client/account.go:80","msg":"{\"id\":\"go.micro.server\",\"code\":500,\"detail\":\"panic recovered: runtime error: invalid memory address or nil pointer dereference\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T10:33:33.034+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:33:34.058+0800","caller":"Client/account.go:80","msg":"{\"id\":\"go.micro.server\",\"code\":500,\"detail\":\"panic recovered: runtime error: invalid memory address or nil pointer dereference\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T10:36:42.476+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:36:43.525+0800","caller":"Client/account.go:80","msg":"{\"id\":\"go.micro.server\",\"code\":500,\"detail\":\"panic recovered: runtime error: invalid memory address or nil pointer dereference\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T10:38:26.562+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:38:27.517+0800","caller":"Client/account.go:80","msg":"{\"id\":\"go.micro.server\",\"code\":500,\"detail\":\"panic recovered: runtime error: invalid memory address or nil pointer dereference\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T10:39:11.131+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:39:49.621+0800","caller":"account/main.go:40","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:40:46.786+0800","caller":"account/main.go:40","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:41:20.952+0800","caller":"account/main.go:40","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:42:15.205+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:42:16.034+0800","caller":"mail/mail.go:82","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T10:42:16.144+0800","caller":"mail/mail.go:82","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T10:42:16.145+0800","caller":"Client/account.go:80","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"redis: nil\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T10:44:02.213+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:44:21.711+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:44:27.594+0800","caller":"Client/account.go:63","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-06T10:46:09.798+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:46:23.923+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:46:25.895+0800","caller":"mail/mail.go:82","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T10:46:26.003+0800","caller":"mail/mail.go:82","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T10:46:26.003+0800","caller":"Client/account.go:80","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"redis: nil\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T10:51:16.180+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:51:30.218+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:51:36.077+0800","caller":"Client/account.go:63","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-06T10:51:55.949+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:51:58.092+0800","caller":"mail/mail.go:83","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T10:51:58.196+0800","caller":"mail/mail.go:83","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T10:51:58.196+0800","caller":"Client/account.go:80","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"redis: nil\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T10:52:55.921+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:53:15.298+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:53:17.595+0800","caller":"mail/mail.go:84","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T10:53:17.711+0800","caller":"mail/mail.go:84","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T10:53:17.711+0800","caller":"Client/account.go:80","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"redis: nil\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T10:54:50.892+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T10:55:03.169+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T10:55:05.278+0800","caller":"mail/mail.go:86","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T10:55:05.381+0800","caller":"mail/mail.go:86","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T10:55:05.382+0800","caller":"Client/account.go:80","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"redis: nil\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T11:03:38.757+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:03:59.685+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T11:04:01.662+0800","caller":"mail/mail.go:64","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T11:04:01.662+0800","caller":"mail/mail.go:85","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T11:04:01.769+0800","caller":"mail/mail.go:64","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T11:04:01.769+0800","caller":"mail/mail.go:85","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T11:04:01.770+0800","caller":"Client/account.go:80","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"redis: nil\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T11:06:25.913+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:07:54.802+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T11:07:57.074+0800","caller":"mail/mail.go:66","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T11:07:57.074+0800","caller":"mail/mail.go:87","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T11:07:57.182+0800","caller":"mail/mail.go:66","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T11:07:57.182+0800","caller":"mail/mail.go:87","msg":"redis: nil"}
+{"level":"error","ts":"2023-01-06T11:07:57.183+0800","caller":"Client/account.go:80","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"redis: nil\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T11:08:51.325+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:09:09.413+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:18:25.945+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:22:30.639+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T11:22:31.505+0800","caller":"Client/account.go:63","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"service go.micro.service.account: not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T11:22:46.607+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:26:17.033+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:35:41.166+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:37:09.440+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:37:25.612+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T11:37:31.467+0800","caller":"Client/account.go:63","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-06T11:37:47.726+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:45:40.746+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:46:10.058+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T11:46:12.337+0800","caller":"Client/account.go:80","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"Error 1054: Unknown column 'create_date' in 'field list'\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T11:47:08.359+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:47:35.714+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:48:11.081+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:52:31.277+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:53:08.497+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T11:53:14.308+0800","caller":"Client/account.go:63","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-06T11:53:29.288+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T11:53:31.623+0800","caller":"Client/account.go:87","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"record not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T11:56:47.374+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T11:56:48.357+0800","caller":"Client/account.go:87","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"record not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T11:57:10.986+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T11:57:23.908+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T11:57:24.836+0800","caller":"Client/account.go:87","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"record not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T12:00:04.715+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:00:29.855+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T12:00:30.814+0800","caller":"Client/account.go:87","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"record not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T12:01:15.099+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:01:28.567+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T12:01:29.543+0800","caller":"Client/account.go:87","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"record not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T12:03:00.045+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:03:12.319+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:04:38.658+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:04:57.973+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:08:01.878+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:09:41.982+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:09:54.721+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:12:54.690+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:13:20.496+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:18:31.507+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:18:46.095+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:22:10.784+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:24:16.832+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:36:52.467+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:37:16.438+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:38:42.909+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T12:38:48.728+0800","caller":"Client/account.go:63","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-06T12:39:02.612+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T12:39:04.912+0800","caller":"Client/account.go:87","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"record not found\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T12:41:24.058+0800","caller":"account/main.go:38","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:41:37.940+0800","caller":"Client/account.go:30","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:50:16.264+0800","caller":"Client/account.go:34","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:50:47.238+0800","caller":"Client/account.go:34","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T12:51:18.690+0800","caller":"Client/account.go:34","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T12:51:20.492+0800","caller":"Client/account.go:85","msg":"fallback failed with 'hystrix: timeout'. run error was 'hystrix: timeout'"}
+{"level":"debug","ts":"2023-01-06T12:52:41.625+0800","caller":"Client/account.go:34","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T12:52:43.471+0800","caller":"Client/account.go:85","msg":"fallback failed with 'hystrix: timeout'. run error was 'hystrix: timeout'"}
+{"level":"debug","ts":"2023-01-06T12:54:48.550+0800","caller":"Client/account.go:35","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T12:54:50.383+0800","caller":"Client/account.go:86","msg":"fallback failed with 'hystrix: timeout'. run error was 'hystrix: timeout'"}
+{"level":"debug","ts":"2023-01-06T12:55:46.064+0800","caller":"Client/account.go:35","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T12:55:48.025+0800","caller":"Client/account.go:86","msg":"fallback failed with 'hystrix: timeout'. run error was 'hystrix: timeout'"}
+{"level":"debug","ts":"2023-01-06T12:56:56.150+0800","caller":"Client/account.go:34","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T14:22:20.199+0800","caller":"account/main.go:63","msg":"Error 1049: Unknown database 'account'"}
+{"level":"error","ts":"2023-01-06T14:23:12.198+0800","caller":"account/main.go:63","msg":"Error 1049: Unknown database 'account'"}
+{"level":"error","ts":"2023-01-06T14:23:53.001+0800","caller":"account/main.go:63","msg":"Error 1049: Unknown database 'account'"}
+{"level":"error","ts":"2023-01-06T14:24:46.329+0800","caller":"account/main.go:63","msg":"Error 1049: Unknown database 'account'"}
+{"level":"debug","ts":"2023-01-06T14:29:11.426+0800","caller":"Client/account.go:31","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T14:29:17.262+0800","caller":"Client/account.go:70","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-06T14:32:19.593+0800","caller":"Client/account.go:31","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T20:31:04.229+0800","caller":"Client/account.go:40","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T20:31:10.134+0800","caller":"Client/account.go:74","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-06T20:31:57.038+0800","caller":"Client/account.go:40","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T20:31:59.365+0800","caller":"Client/account.go:90","msg":"{\"id\":\"go.micro.client\",\"code\":500,\"detail\":\"Error 1062: Duplicate entry '夏沫の梦' for key 'uix_user_user_name'\",\"status\":\"Internal Server Error\"}"}
+{"level":"debug","ts":"2023-01-06T20:32:39.605+0800","caller":"Client/account.go:40","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-06T21:30:23.657+0800","caller":"Client/account.go:40","msg":"[logger init success...]"}
+{"level":"error","ts":"2023-01-06T21:30:29.610+0800","caller":"Client/account.go:74","msg":"{\"id\":\"go.micro.client\",\"code\":408,\"detail\":\"context deadline exceeded\",\"status\":\"Request Timeout\"}"}
+{"level":"debug","ts":"2023-01-06T21:30:55.638+0800","caller":"Client/account.go:40","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-01-07T19:22:17.161+0800","caller":"client/account.go:40","msg":"[logger init success...]"}
+{"level":"debug","ts":"2023-02-28T13:18:52.105+0800","caller":"client/account.go:40","msg":"[logger init success...]"}
